@@ -650,7 +650,7 @@
         <div class="involved-content fs-14 mt-2 fw-medium">
             Stronger together! Partner with Akinofoundation to drive meaningful change. Let’s collaborate to empower communities and build a better tomorrow.
         </div>
-        <a href="{{url('volunteering')}}" class="d-inline-block mt-4 text-decoration-none ">Join Us&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="{{url('volunteering?tab=volunteer')}}" class="d-inline-block mt-4 text-decoration-none ">Join Us&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
 </div>
 <div class="col-12 col-md-6 col-lg-4 p-2">
@@ -660,7 +660,7 @@
         <div class="involved-content fs-14 mt-2 fw-medium">
             Be the change! Volunteer with Akinofoundation and help transform lives through education, healthcare, and community support. Your time and skills can make a lasting impact.
         </div>
-        <a href="{{url('volunteering')}}" class="d-inline-block mt-4 text-decoration-none ">Know more&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="{{url('volunteering?tab=partner')}}" class="d-inline-block mt-4 text-decoration-none ">Know more&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
 </div>
 </div>

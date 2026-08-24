@@ -143,6 +143,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post("/campaign/document/store", [CampaignController::class, 'documentStore']);
     Route::get("/campaign/view", [CampaignController::class, 'index']);
 
+    Route::get("/submissions", [\App\Http\Controllers\Admin\SubmissionController::class, 'index']);
+    Route::get("/submissions/{id}", [\App\Http\Controllers\Admin\SubmissionController::class, 'show']);
+    Route::post("/submissions/{id}/status", [\App\Http\Controllers\Admin\SubmissionController::class, 'updateStatus']);
 
 });
 

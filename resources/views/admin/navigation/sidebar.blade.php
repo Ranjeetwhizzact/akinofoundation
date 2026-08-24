@@ -92,6 +92,12 @@
           <span class="menu-title">Our WorkDetail</span>
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('/admin/submissions')}}">
+          <i class="menu-icon mdi mdi-floor-plan"></i>
+          <span class="menu-title">Submissions</span>
+        </a>
+      </li>
    
 
       
