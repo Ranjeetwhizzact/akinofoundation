@@ -592,32 +592,42 @@
     </div>
  </section>
  
- <section class="my-3">
-    <div class="container px-0 d-none">
-    
-        <p class="fs-30 col-xl-7 col-md-10 col-12 ps-2 pt-2  fw-600 lh-sm">Our Supporting Partner's</p>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="{{url('/assets/img/indexbanner/bg-yelllow.webp')}}" alt="" width="250"  srcset="" class="img-fluid my-2">
-            </div>
-   
+ <section class="my-5 partners-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h3 class="fs-1 fw-semibold">Supporting Partners</h3>
+            <p class="fs-14 text-muted col-lg-8 mx-auto mt-2">
+                We are grateful to the organizations and partners who support our mission and help us create a greater impact.
+            </p>
         </div>
-
+        
+        <div class="partners-slider-wrapper">
+            <div class="partners-slider-track">
+                <!-- Partner logos in final specified order -->
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/hp.svg')}}" alt="HP logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/indianoil.svg')}}" alt="IndianOil logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/crossworld.jpg')}}" alt="Crossworld logo" loading="lazy"></div>
+                <div class="partner-logo-box"><div class="partner-text-fallback">Inorbit Mall</div></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/seawoods.svg')}}" alt="Grand Central Seawoods logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/razorpay.svg')}}" alt="Razorpay logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/axis.svg')}}" alt="Axis Bank logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/icici.svg')}}" alt="ICICI Bank logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/whizzact.webp')}}" alt="Whizzact logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/bmc.png')}}" alt="BMC School logo" loading="lazy"></div>
+                
+                <!-- Duplicate logos to ensure seamless looping scroll -->
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/hp.svg')}}" alt="HP logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/indianoil.svg')}}" alt="IndianOil logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/crossworld.jpg')}}" alt="Crossworld logo" loading="lazy"></div>
+                <div class="partner-logo-box"><div class="partner-text-fallback">Inorbit Mall</div></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/seawoods.svg')}}" alt="Grand Central Seawoods logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/razorpay.svg')}}" alt="Razorpay logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/axis.svg')}}" alt="Axis Bank logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/icici.svg')}}" alt="ICICI Bank logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/whizzact.webp')}}" alt="Whizzact logo" loading="lazy"></div>
+                <div class="partner-logo-box"><img src="{{url('/assets/img/partners/bmc.png')}}" alt="BMC School logo" loading="lazy"></div>
+            </div>
+        </div>
     </div>
 </section>
   <section class="container my-5">
