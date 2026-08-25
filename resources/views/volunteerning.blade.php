@@ -5,6 +5,40 @@
 <link rel="stylesheet" href="{{url('/assets/css/style.css')}}">
 <link rel="stylesheet" href="{{url('/assets/css/theme.css')}}">
 <link rel="stylesheet" href="{{url('/assets/css/index.css')}}">
+<style>
+  .tab-container {
+      display: inline-flex;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 50px;
+      padding: 6px;
+      margin-bottom: 2rem;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+  }
+  .tab-btn {
+      border: none;
+      background: none;
+      padding: 12px 30px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #6c757d;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      outline: none !important;
+  }
+  .tab-btn:hover {
+      color: #333;
+      background-color: rgba(249, 202, 62, 0.08);
+  }
+  .tab-btn.active {
+      color: #333 !important;
+      background-color: #f9ca3e !important;
+      box-shadow: 0 4px 15px rgba(249, 202, 62, 0.35);
+  }
+</style>
 @stop
 @section('content')
 
@@ -306,7 +340,127 @@
           <p class="lazyMonday position-relative text-white fs-30 ps-2">Prem Naik</p>
         </div>
       </div>
+    </div>
 
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/anita_patel.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Anita Patel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/ashok_gusaival.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Ashok Gusaival</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/harendra_bakoliya.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Harendra Bakoliya</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/harish_sumra.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Harish Sumra</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/isaac_fernades.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Isaac Fernandes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/kajal_verma.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Kajal Verma</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/mansi_gurkha.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Mansi Gurkha</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/mita_dias.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Mita Dias</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/rufhiha_mirkar.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Rufhiha Mirkar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/sanjay_patel.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Sanjay Patel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/sudatta_kharat.webp')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Sudatta Kharat</p>
+        </div>
+      </div>
     </div>
         
     <!--<div class="item">-->
@@ -462,7 +616,163 @@
       </div>
 
     </div>
-  
+</div>
+ 
+<div class="container my-5" id="submission-section">
+    <div class="col-lg-8 col-md-10 col-12 mx-auto bg-white p-md-5 p-4 rounded-4 shadow-sm border border-warning-subtle">
+        
+        <!-- Tab Navigation -->
+        <div class="text-center">
+            <div class="tab-container">
+                <button class="tab-btn active" id="tab-btn-volunteer" onclick="switchTab('volunteer')">
+                    Volunteer With Us
+                </button>
+                <button class="tab-btn" id="tab-btn-partner" onclick="switchTab('partner')">
+                    Partner With Us
+                </button>
+            </div>
+        </div>
+
+        <!-- Success & Error Alert Messages -->
+        @if(Session::has('msg'))
+            <div class="alert alert-success alert-dismissible fade show rounded-3 p-3 mb-4" role="alert" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724;">
+                <strong>Success!</strong> {{ Session::get('msg') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
+
+        @if(Session::has('error'))
+            <div class="alert alert-danger alert-dismissible fade show rounded-3 p-3 mb-4" role="alert" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24;">
+                <strong>Error!</strong> {{ Session::get('error') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
+
+        @if($errors->any())
+            <div class="alert alert-danger rounded-3 p-3 mb-4" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24;">
+                <strong>Please fix the errors below:</strong>
+                <ul class="mb-0 mt-2">
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
+        <!-- Volunteer Form -->
+        <div id="form-volunteer" class="tab-content-form">
+            <form action="{{ url('/submit/volunteer') }}" method="POST">
+                @csrf
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Full Name *</label>
+                        <input type="text" name="full_name" class="form-control rounded-2 p-2 border" value="{{ old('full_name') }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Email Address *</label>
+                        <input type="email" name="email" class="form-control rounded-2 p-2 border" value="{{ old('email') }}" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Phone Number *</label>
+                        <input type="tel" name="phone" class="form-control rounded-2 p-2 border" value="{{ old('phone') }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Location *</label>
+                        <input type="text" name="location" class="form-control rounded-2 p-2 border" value="{{ old('location') }}" placeholder="City, State" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Availability *</label>
+                        <select name="availability" class="form-select rounded-2 p-2 border" required>
+                            <option value="">Select Availability</option>
+                            <option value="weekdays" {{ old('availability') == 'weekdays' ? 'selected' : '' }}>Weekdays</option>
+                            <option value="weekends" {{ old('availability') == 'weekends' ? 'selected' : '' }}>Weekends</option>
+                            <option value="flexible" {{ old('availability') == 'flexible' ? 'selected' : '' }}>Flexible</option>
+                            <option value="full-time" {{ old('availability') == 'full-time' ? 'selected' : '' }}>Full-Time</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Skills & Interests *</label>
+                        <input type="text" name="skills_or_interests" class="form-control rounded-2 p-2 border" value="{{ old('skills_or_interests') }}" placeholder="e.g. Teaching, Event Planning, Design" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label font-sm fw-semibold">Previous Experience</label>
+                    <textarea name="previous_experience" class="form-control rounded-2 p-2 border" rows="3" placeholder="Briefly describe any prior volunteering work...">{{ old('previous_experience') }}</textarea>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label font-sm fw-semibold">Why do you want to join us? *</label>
+                    <textarea name="message" class="form-control rounded-2 p-2 border" rows="4" placeholder="Tell us about yourself and why you'd like to work with Akino Foundation..." required>{{ old('message') }}</textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn px-5 py-2 fw-bold text-uppercase rounded-3" style="background-color: #f9ca3e; color: #333; border: none; font-size: 16px;">
+                        Submit Volunteer Application
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Partner Form -->
+        <div id="form-partner" class="tab-content-form" style="display: none;">
+            <form action="{{ url('/submit/partner') }}" method="POST">
+                @csrf
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Contact Person Name *</label>
+                        <input type="text" name="full_name" class="form-control rounded-2 p-2 border" value="{{ old('full_name') }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Email Address *</label>
+                        <input type="email" name="email" class="form-control rounded-2 p-2 border" value="{{ old('email') }}" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Phone Number *</label>
+                        <input type="tel" name="phone" class="form-control rounded-2 p-2 border" value="{{ old('phone') }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Location *</label>
+                        <input type="text" name="location" class="form-control rounded-2 p-2 border" value="{{ old('location') }}" placeholder="City, State" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Organization Name *</label>
+                        <input type="text" name="organization_name" class="form-control rounded-2 p-2 border" value="{{ old('organization_name') }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label font-sm fw-semibold">Website URL</label>
+                        <input type="url" name="website" class="form-control rounded-2 p-2 border" value="{{ old('website') }}" placeholder="https://example.com">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label font-sm fw-semibold">Partnership Type *</label>
+                    <select name="partnership_type" class="form-select rounded-2 p-2 border" required>
+                        <option value="">Select Partnership Type</option>
+                        <option value="corporate" {{ old('partnership_type') == 'corporate' ? 'selected' : '' }}>Corporate CSR</option>
+                        <option value="ngo" {{ old('partnership_type') == 'ngo' ? 'selected' : '' }}>NGO / Nonprofit</option>
+                        <option value="community" {{ old('partnership_type') == 'community' ? 'selected' : '' }}>Community Group</option>
+                        <option value="academic" {{ old('partnership_type') == 'academic' ? 'selected' : '' }}>Academic Institution</option>
+                        <option value="other" {{ old('partnership_type') == 'other' ? 'selected' : '' }}>Other</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label font-sm fw-semibold">Proposed Partnership Details / Message *</label>
+                    <textarea name="message" class="form-control rounded-2 p-2 border" rows="5" placeholder="Please describe how you'd like to collaborate with Akino Foundation..." required>{{ old('message') }}</textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn px-5 py-2 fw-bold text-uppercase rounded-3" style="background-color: #f9ca3e; color: #333; border: none; font-size: 16px;">
+                        Submit Partnership Request
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
 </div>
  
 </main>
@@ -492,6 +802,37 @@ window.addEventListener('scroll', () => {
     }
 });
 
+function switchTab(type) {
+    const volunteerBtn = document.getElementById('tab-btn-volunteer');
+    const partnerBtn = document.getElementById('tab-btn-partner');
+    const volunteerForm = document.getElementById('form-volunteer');
+    const partnerForm = document.getElementById('form-partner');
+
+    if (type === 'volunteer') {
+        volunteerBtn.classList.add('active');
+        partnerBtn.classList.remove('active');
+
+        volunteerForm.style.display = 'block';
+        partnerForm.style.display = 'none';
+    } else {
+        partnerBtn.classList.add('active');
+        volunteerBtn.classList.remove('active');
+
+        partnerForm.style.display = 'block';
+        volunteerForm.style.display = 'none';
+    }
+}
+
+// Auto-switch based on URL tab parameter
+document.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const tab = params.get('tab');
+    if (tab === 'partner') {
+        switchTab('partner');
+    } else {
+        switchTab('volunteer');
+    }
+});
 </script>
 @stop
 @stop

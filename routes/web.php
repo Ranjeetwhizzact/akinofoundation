@@ -64,4 +64,8 @@ Route::get("/volunteer/donation", [HomeController::class, "volunteerDonation"]);
 Route::post("/volunteer/donation/create", [HomeController::class, "createDonationForVolunteer"]);
 Route::post("/volunteer/pdf-download", [PdfController::class, "downloadVolunteerPDF"]);
 
+use App\Http\Controllers\PartnerVolunteerController;
+Route::post("/submit/partner", [PartnerVolunteerController::class, 'submitPartner']);
+Route::post("/submit/volunteer", [PartnerVolunteerController::class, 'submitVolunteer']);
+
 Route::get('/mailtest', [PaymentGatwayController::class, 'sendMail']);
