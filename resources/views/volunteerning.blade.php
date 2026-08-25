@@ -5,6 +5,40 @@
 <link rel="stylesheet" href="{{url('/assets/css/style.css')}}">
 <link rel="stylesheet" href="{{url('/assets/css/theme.css')}}">
 <link rel="stylesheet" href="{{url('/assets/css/index.css')}}">
+<style>
+  .tab-container {
+      display: inline-flex;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 50px;
+      padding: 6px;
+      margin-bottom: 2rem;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+  }
+  .tab-btn {
+      border: none;
+      background: none;
+      padding: 12px 30px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #6c757d;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      outline: none !important;
+  }
+  .tab-btn:hover {
+      color: #333;
+      background-color: rgba(249, 202, 62, 0.08);
+  }
+  .tab-btn.active {
+      color: #333 !important;
+      background-color: #f9ca3e !important;
+      box-shadow: 0 4px 15px rgba(249, 202, 62, 0.35);
+  }
+</style>
 @stop
 @section('content')
 
@@ -306,7 +340,127 @@
           <p class="lazyMonday position-relative text-white fs-30 ps-2">Prem Naik</p>
         </div>
       </div>
+    </div>
 
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/anita_patel.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Anita Patel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/ashok_gusaival.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Ashok Gusaival</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/harendra_bakoliya.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Harendra Bakoliya</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/harish_sumra.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Harish Sumra</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/isaac_fernades.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Isaac Fernandes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/kajal_verma.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Kajal Verma</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/mansi_gurkha.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Mansi Gurkha</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/mita_dias.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Mita Dias</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/rufhiha_mirkar.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Rufhiha Mirkar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/sanjay_patel.jpeg')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Sanjay Patel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="volentercard m-auto">
+        <div class="volenter-img">
+          <img src="{{url('/assets/img/volunteers/sudatta_kharat.webp')}}" alt="" srcset="" class="vol-img">
+        </div>
+        <div class="volenter-content">
+          <p class="lazyMonday position-relative text-white fs-30 ps-2">Sudatta Kharat</p>
+        </div>
+      </div>
     </div>
         
     <!--<div class="item">-->
@@ -468,13 +622,15 @@
     <div class="col-lg-8 col-md-10 col-12 mx-auto bg-white p-md-5 p-4 rounded-4 shadow-sm border border-warning-subtle">
         
         <!-- Tab Navigation -->
-        <div class="d-flex justify-content-center mb-4 border-bottom pb-3">
-            <button class="btn btn-lg px-4 py-2 mx-2 border-0 fw-semibold text-uppercase tab-btn active" id="tab-btn-volunteer" onclick="switchTab('volunteer')" style="background: none; border-bottom: 3px solid #f9ca3e !important; color: #333;">
-                Volunteer With Us
-            </button>
-            <button class="btn btn-lg px-4 py-2 mx-2 border-0 fw-semibold text-uppercase tab-btn" id="tab-btn-partner" onclick="switchTab('partner')" style="background: none; color: #777;">
-                Partner With Us
-            </button>
+        <div class="text-center">
+            <div class="tab-container">
+                <button class="tab-btn active" id="tab-btn-volunteer" onclick="switchTab('volunteer')">
+                    Volunteer With Us
+                </button>
+                <button class="tab-btn" id="tab-btn-partner" onclick="switchTab('partner')">
+                    Partner With Us
+                </button>
+            </div>
         </div>
 
         <!-- Success & Error Alert Messages -->
@@ -654,23 +810,13 @@ function switchTab(type) {
 
     if (type === 'volunteer') {
         volunteerBtn.classList.add('active');
-        volunteerBtn.style.borderBottom = '3px solid #f9ca3e';
-        volunteerBtn.style.color = '#333';
-        
         partnerBtn.classList.remove('active');
-        partnerBtn.style.borderBottom = 'none';
-        partnerBtn.style.color = '#777';
 
         volunteerForm.style.display = 'block';
         partnerForm.style.display = 'none';
     } else {
         partnerBtn.classList.add('active');
-        partnerBtn.style.borderBottom = '3px solid #f9ca3e';
-        partnerBtn.style.color = '#333';
-        
         volunteerBtn.classList.remove('active');
-        volunteerBtn.style.borderBottom = 'none';
-        volunteerBtn.style.color = '#777';
 
         partnerForm.style.display = 'block';
         volunteerForm.style.display = 'none';
